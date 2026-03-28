@@ -1,0 +1,285 @@
+(footprint "inductorcustome27"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Neosid, Power Inductor, SM-PIC0602H, Fixed inductor, SMD, https://neosid.de/import-data/product-pdf/neoFestind_SMPIC0602H.pdf")
+	(tags "Neosid Power Inductor SM-PIC0602H Fixed inductor SMD")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "3cda2270-9bc9-4fbe-b92a-ea2d6b7f678f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "4.7μ"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1f3fc24-b67b-406f-9249-88745105c01d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.vishay.com/docs/34303/ihlp-2020bz-1a.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d2f7ee5-1633-4188-9b6a-a0ac7131e226")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "IHLP® Automotive Inductors, Low DCR Series"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b03a455-eb35-49e1-b994-31ade9a726c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser P/N" "70-IHLP2020BZR4R7M1A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73e702a8-d8a2-4d03-83d3-5747d10f54a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Inventory" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8eff68e7-ed82-4e3c-ac87-42eb1080976c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea7ce446-fd56-4c39-8b82-07e5d195321b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad37362d-c069-4e55-9b1d-528bb0e584d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.78 -2.37)
+		(end -2.78 -1.47)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7af83b17-344d-431c-9ec9-eab6027f9c92")
+	)
+	(fp_line
+		(start -2.78 1.96)
+		(end -2.78 2.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a78f9f10-c61f-477a-b94b-8c9347030fab")
+	)
+	(fp_line
+		(start -2.78 2.86)
+		(end 2.88 2.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b1286bd-0d47-4660-9882-c679fbbf19d9")
+	)
+	(fp_line
+		(start 2.88 2.86)
+		(end 2.88 1.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "456cf360-e21e-4809-b35e-e6920aa73fb4")
+	)
+	(fp_line
+		(start 2.93 -2.34)
+		(end -2.76 -2.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "263b2b06-fdc6-44d9-a06d-09712b9138e2")
+	)
+	(fp_line
+		(start 2.93 -1.44)
+		(end 2.93 -2.34)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c880b514-bd2c-4c69-a4f3-27ee295c1a83")
+	)
+	(fp_line
+		(start -3.85 -2.989981)
+		(end -3.84 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea494d1f-3b74-4e0f-95b4-7c70bcea6cc4")
+	)
+	(fp_line
+		(start -3.85 -2.989981)
+		(end 4.12 -2.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "05181d39-7dda-4552-a1d1-c0af8a0146bf")
+	)
+	(fp_line
+		(start 4.13 3.22)
+		(end -3.84 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b47ab241-dc9d-49af-be68-24eac1a7e7ce")
+	)
+	(fp_line
+		(start 4.13 3.22)
+		(end 4.12 -2.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed79282a-3d5d-47fa-bebe-d6cf7cb4573c")
+	)
+	(fp_line
+		(start -2.66 2.86)
+		(end -2.66 -2.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75ceff6f-f72c-4a74-8fcd-f0bdab3e0031")
+	)
+	(fp_line
+		(start -2.655 -2.34)
+		(end 2.835 -2.34)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65c1c9a1-7e17-43fd-8b73-2e8ebae4ff97")
+	)
+	(fp_line
+		(start -2.655 2.85)
+		(end 2.835 2.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "618fff13-d935-4353-a7bf-aecfe2b2e562")
+	)
+	(fp_line
+		(start 2.84 2.85)
+		(end 2.84 -2.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67cc2962-d274-480d-9da3-3e05491eb8ab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7cec0363-b04b-411a-8a96-167652bc7788")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.75 0.13)
+		(size 1.8 2.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8328925e-07b5-4e43-a318-0590f6d54f83")
+	)
+	(pad "2" smd rect
+		(at 2.99 0.15)
+		(size 1.8 2.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "620fca97-8849-4022-be33-6a3de6b7da6e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/IHLP2020BZ.STEP"
+		(offset
+			(xyz -0.65 6 -2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

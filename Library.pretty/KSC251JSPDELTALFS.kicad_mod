@@ -1,0 +1,368 @@
+(footprint "KSC251JSPDELTALFS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "KSC251J SP DELTA LFS-2")
+	(tags "Switch")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "cc4a6bc6-50c6-45f7-93be-e4eed3aa044d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SW_Push"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cc2868ef-703f-4cb2-9597-f5248f31d263")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ckswitches.com/media/1459/ksc.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29fd7908-d64b-4fd5-a8fb-bc4023af2a18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Push button switch, generic, two pins"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86900063-39cd-48b5-b4a3-4c68cb55706c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser P/N" "611-KSC251JSPDELTALF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49cba0ca-9418-4adc-b2d8-158483a16ab8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Inventory" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c1de5e7-28ca-47e6-9cea-75d7b79c0cc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c84d916-b090-4fea-bf36-7ef4d121016a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55196807-d192-4592-bd00-0b5373495c7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.1 -3.1)
+		(end -3.1 -2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa321e80-6bf9-4585-ab30-cb34b2cfb4f3")
+	)
+	(fp_line
+		(start -3.1 -1.2)
+		(end -3.1 1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5c15515-db35-4808-a000-f76856c39650")
+	)
+	(fp_line
+		(start -3.1 2.8)
+		(end -3.1 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9029faee-d1de-4cf8-bbd2-27b413dbd6b8")
+	)
+	(fp_line
+		(start -3.1 3.1)
+		(end 3.1 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ec36598-1047-4d87-a7eb-312c78a6dee3")
+	)
+	(fp_line
+		(start 3.1 -3.1)
+		(end -3.1 -3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e28b3c2-6496-40e7-b121-467c7bef34e6")
+	)
+	(fp_line
+		(start 3.1 -2.8)
+		(end 3.1 -3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46d3f346-f914-44ce-978b-bca9b67b7f6b")
+	)
+	(fp_line
+		(start 3.1 1.2)
+		(end 3.1 -1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10f3066b-a5f9-4d8a-8aba-61658fc6755e")
+	)
+	(fp_line
+		(start 3.1 3.1)
+		(end 3.1 2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74f3473d-18ef-4f8f-9e78-1af68bb98248")
+	)
+	(fp_line
+		(start 4.7 2)
+		(end 4.7 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7f72eb5-3473-443e-8c99-4df27b9b1bf7")
+	)
+	(fp_line
+		(start 4.8 2)
+		(end 4.8 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b96e3842-dc76-4a21-9dd0-28307e6e84df")
+	)
+	(fp_arc
+		(start 4.7 2)
+		(mid 4.75 1.95)
+		(end 4.8 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4887eb7c-9472-4efa-b79d-0add0611f4b9")
+	)
+	(fp_arc
+		(start 4.8 2)
+		(mid 4.75 2.05)
+		(end 4.7 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "daab6ba8-0a40-4fc5-a8b1-b292efa25fd4")
+	)
+	(fp_line
+		(start -5.3 -4.1)
+		(end 5.3 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f0261ba-6e47-46d3-9a44-30030aa000ff")
+	)
+	(fp_line
+		(start -5.3 4.1)
+		(end -5.3 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0762870-9d9f-4ab4-98d2-b4b742f6a84e")
+	)
+	(fp_line
+		(start 5.3 -4.1)
+		(end 5.3 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfcabe14-9cfa-4ab1-98ec-5dac54d4d141")
+	)
+	(fp_line
+		(start 5.3 4.1)
+		(end -5.3 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee68c31d-d3b7-4bb2-b1fe-6495cc609426")
+	)
+	(fp_line
+		(start -3.1 -3.1)
+		(end -3.1 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6653471e-045b-4985-8fb1-56cc7382f93f")
+	)
+	(fp_line
+		(start -3.1 3.1)
+		(end 3.1 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "769d4c77-2e89-43fc-b0b2-7969ad3951e1")
+	)
+	(fp_line
+		(start 3.1 -3.1)
+		(end -3.1 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "541c2141-cdb8-46b1-a1c8-9061d10d9827")
+	)
+	(fp_line
+		(start 3.1 3.1)
+		(end 3.1 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "545d6a44-7106-44f0-8cee-17fb12d55436")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5528e995-d9be-4d63-98fa-0abc3abdff4d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.9 2 90)
+		(size 1 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "50e8d3a3-1682-4069-a435-e2bb99ea2557")
+	)
+	(pad "2" smd rect
+		(at 2.9 -2 90)
+		(size 1 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f8cbca35-4920-4806-8943-ca9a0de035d5")
+	)
+	(pad "3" smd rect
+		(at -2.9 -2 90)
+		(size 1 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1a4b6c6a-6518-4a34-9c32-bed77b28c4da")
+	)
+	(pad "4" smd rect
+		(at -2.9 2 90)
+		(size 1 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fbb7149e-81e1-40f0-a3df-164f7072666e")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Sujin Shakya/Downloads/LIB_KSC251J_SP_DELTA_LFS/KSC251J_SP_DELTA_LFS/3D/KSC251J_SP_DELTA_LFS.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "D:/backup/LIB_KSC251J_SP_DELTA_LFS/KSC251J_SP_DELTA_LFS/3D/KSC251J_SP_DELTA_LFS.stp"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

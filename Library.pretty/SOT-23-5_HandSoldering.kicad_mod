@@ -1,0 +1,353 @@
+(footprint "SOT-23-5_HandSoldering"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "5-pin SOT23 package")
+	(tags "SOT-23-5 hand-soldering")
+	(property "Reference" "REF**"
+		(at 0 -2.9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3f34d7cf-f5d6-4c63-8a2f-ee6ff46379db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPS7A03"
+		(at 0.275 -4.285 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "337bafc3-3ef8-49de-8585-9f3ad5545ec1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a03.pdf?ts=1768574123678&ref_url=https%253A%252F%252Fwww.mouser.de%252F"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5288349-9727-461b-97dc-d538467a371a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TPS7A03 Nanopower IQ, 200-nA, 200-mA, Low-Dropout Voltage Regulator With Fast  Transient Response"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cfe0b0d-ac7e-4bca-8655-316c59a6d180")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.45"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d51d61a1-7330-4633-a82e-96d89947ae0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee9151c3-7563-48be-a256-1cf750235ff4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Texas-Instruments/TLV75533PDYDR?qs=ZcfC38r4Pou71ty1Hbi3LA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfe04c44-7859-4a90-806d-6dcba7e86827")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "720ab62b-ba6f-494c-bd4f-4edce2c25b12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TLV74133PDBVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dda91367-3c33-447c-8b1c-72a2ffb236c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "unit x1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98cde8da-e08b-4a74-a8fd-233217b864b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41d35f19-20b6-4f65-9fe4-ef733df5d974")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c0d5e90-4b82-40aa-86c9-336bb41e91b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 1.61)
+		(end 0.9 1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e54be92-597a-4368-92d4-6fd52a02b2e8")
+	)
+	(fp_line
+		(start 0.1 -1.61)
+		(end -0.7 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d2f44ed-9891-4ce1-9930-870211288168")
+	)
+	(fp_line
+		(start 0.1 -1.61)
+		(end 0.9 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92a11804-4aec-4bde-9526-da1d4865365d")
+	)
+	(fp_poly
+		(pts
+			(xy -1.2 -1.56) (xy -1.44 -1.89) (xy -0.96 -1.89) (xy -1.2 -1.56)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c7dbdf8e-e389-4514-b983-8430e6cacff5")
+	)
+	(fp_line
+		(start -2.38 -1.8)
+		(end -2.38 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9d95792-7d1c-47d1-a7dd-81150a44c6b0")
+	)
+	(fp_line
+		(start -2.38 -1.8)
+		(end 2.38 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9b7bed3-fa1f-449b-9a9e-db36757ad734")
+	)
+	(fp_line
+		(start 2.38 1.8)
+		(end -2.38 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "667c4c19-4bbb-4cba-adbf-e19feb5b1002")
+	)
+	(fp_line
+		(start 2.38 1.8)
+		(end 2.38 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d552c392-d779-4cba-99c7-9c4b74fb32f4")
+	)
+	(fp_line
+		(start -0.9 -0.9)
+		(end -0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f355a1de-09c0-43b5-b407-fb3f3d0214ba")
+	)
+	(fp_line
+		(start -0.9 -0.9)
+		(end -0.25 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd5563ba-5f8d-4493-921c-598e3bc89e77")
+	)
+	(fp_line
+		(start 0.9 -1.55)
+		(end -0.25 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f4189e5-6255-495b-9b83-f16d0edd44f2")
+	)
+	(fp_line
+		(start 0.9 -1.55)
+		(end 0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7475c8f3-45ce-492a-bb28-b56b8d5f122c")
+	)
+	(fp_line
+		(start 0.9 1.55)
+		(end -0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c8a1198-436e-4979-b335-2fd2f3f51cfe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(uuid "ad78ec03-f5fc-4236-bc9c-559f46678264")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.35 -0.95)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2cede0eb-5dc0-4a1c-9368-1f0009c62281")
+	)
+	(pad "2" smd roundrect
+		(at -1.35 0)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2b305ffb-6421-4d9c-99b8-1741a5f84927")
+	)
+	(pad "3" smd roundrect
+		(at -1.35 0.95)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "23b16499-d7ac-4f3a-bca5-5716c0853ab1")
+	)
+	(pad "4" smd roundrect
+		(at 1.35 0.95)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "51db468b-f18b-4460-984a-5ecc2162c8b4")
+	)
+	(pad "5" smd roundrect
+		(at 1.35 -0.95)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "41f92b73-2058-48d9-b047-eb53c167b239")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

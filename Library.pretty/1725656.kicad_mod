@@ -1,0 +1,365 @@
+(footprint "1725656"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1725656-5")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 1.27 0 0)
+		(layer "F.SilkS")
+		(uuid "ccc90402-182b-4e76-b992-aa5d04e95bfc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Screw_Terminal_01x02"
+		(at 1.27 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f739381a-81ff-4f2e-a3cd-634cb2bf4beb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/3/507/9/phoenix_contact_1725656_en.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2307500a-3191-4cea-a69c-66b05b2c8d79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fixed Terminal Blocks 2P 2.54mm 90DEG"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d835e3d-91ca-4caa-b565-1571de96bb81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser P/N" "651-1725656"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74310e7e-b64d-42b3-b1c7-d3e6780e53f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Inventory" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2652c949-7897-48b3-aeed-7e241c12471c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dc1989f-8ea0-4257-b711-50a9493c790c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f95bc498-bea3-4a9f-bddc-a3520095c201")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.1 0)
+		(end -2.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a952a022-a3cd-4962-bfbb-e9dd70609544")
+	)
+	(fp_line
+		(start -2.1 0)
+		(end -2.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0053d67-5663-40c0-8561-2cc5c4bd43e0")
+	)
+	(fp_line
+		(start -2 0)
+		(end -2 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abe3293d-392b-43ce-b2b5-c36ddb856a33")
+	)
+	(fp_line
+		(start -1.5 -3.1)
+		(end 4.04 -3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32fd4029-1557-498d-b45a-b9012c9ad302")
+	)
+	(fp_line
+		(start -1.5 3.1)
+		(end -1.5 -3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42beb345-dde4-4601-bdad-1d73d06ceebe")
+	)
+	(fp_line
+		(start -0.9 3.1)
+		(end -1.5 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc4bffe0-7135-4b82-9e38-8f54c91a44f1")
+	)
+	(fp_line
+		(start 4.04 -3.1)
+		(end 4.04 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a9b9445-f223-4ac7-b34e-d21158fb1c7f")
+	)
+	(fp_line
+		(start 4.04 3.1)
+		(end 3.3 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96c120f8-5d8e-464d-af99-9cb216a9beb3")
+	)
+	(fp_arc
+		(start -2.1 0)
+		(mid -2.05 -0.05)
+		(end -2 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b50fbf88-539a-412f-b49e-e541a6c139c4")
+	)
+	(fp_arc
+		(start -2 0)
+		(mid -2.05 0.05)
+		(end -2.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2bf7f4d7-2022-48a3-86f0-a90e203d4ddf")
+	)
+	(fp_arc
+		(start -2 0)
+		(mid -2.05 0.05)
+		(end -2.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "468b3faf-db11-4d1e-9962-1685887d13f5")
+	)
+	(fp_line
+		(start -2.5 -4.1)
+		(end 5.04 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed0014eb-1dbf-4b9b-bb0c-5ab630ba02c5")
+	)
+	(fp_line
+		(start -2.5 4.1)
+		(end -2.5 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e87bf1f2-a3e4-4b60-815e-9b6ffac779b6")
+	)
+	(fp_line
+		(start 5.04 -4.1)
+		(end 5.04 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4541d17-e4af-42b3-a760-52c329bdf49c")
+	)
+	(fp_line
+		(start 5.04 4.1)
+		(end -2.5 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "de1dca1d-dcee-4463-bd7b-dd7e4ded34a0")
+	)
+	(fp_line
+		(start -1.5 -3.1)
+		(end -1.5 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4f3eadc-219d-4997-8e34-6db7d56b6130")
+	)
+	(fp_line
+		(start -1.5 3.1)
+		(end 4.04 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "063eddc4-4c88-48fb-a63a-7c699216f04c")
+	)
+	(fp_line
+		(start 4.04 -3.1)
+		(end -1.5 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5011d5c3-2bac-40b6-8541-03d26b0c04f3")
+	)
+	(fp_line
+		(start 4.04 3.1)
+		(end 4.04 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2964559a-ab2f-4ad6-aab3-ed3776da621e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 0 0)
+		(layer "F.Fab")
+		(uuid "9e0a54f7-c7e1-45da-a948-b8b6548dda7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 2.54)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "80aad840-6da1-47b4-95d3-acc0dde60a6f")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.54 2.54)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "cbe85129-4cda-4f93-a9f0-f1ad856d3e08")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e96e66c-5dea-49fe-a4be-8da552cf6a5f")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0d350de9-981d-481c-a5cf-dc764d7974b6")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Sujin Shakya/Downloads/LIB_1725656/1725656/3D/1725656.stp"
+		(offset
+			(xyz 4.039999901 -3.099999858 0.4999999925)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+	(model "D:/backup/LIB_1725656/1725656/3D/1725656.stp"
+		(offset
+			(xyz -1.5 3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 -90)
+		)
+	)
+)

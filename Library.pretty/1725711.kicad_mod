@@ -1,0 +1,326 @@
+(footprint "1725711"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1725711-2")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 8.89 0 0)
+		(layer "F.SilkS")
+		(uuid "d1b69779-6369-4805-8005-00a31cb659e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Screw_Terminal_01x08"
+		(at 8.89 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3aa9a33a-ae62-4c96-a0b6-5aad7e29e78e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/3/507/10/phoenix_contact_1725711_en.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d48796c-9361-4360-bcb0-de9f1ba51b81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fixed Terminal Blocks 8P 2.54mm 90DEG"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b11cac4-1111-4f06-a586-3ea8df85c4f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser P/N" "490-TB003-500-P03BE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82225934-6c6d-4c52-8364-fb2240306586")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Inventory" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a95d84b-d566-49a9-9e98-359fbcf5e62e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36126ebe-de19-4f74-a4e0-4acb389635eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6304aca5-be7a-438a-bf8b-43872789addd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 -3.1)
+		(end 19.28 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "910111f4-a8ad-4cbb-8850-0a8db1159eae")
+	)
+	(fp_line
+		(start -1.5 3.1)
+		(end -1.5 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b575ef26-06ae-42e8-a6ab-8c01e5b860aa")
+	)
+	(fp_line
+		(start 19.28 -3.1)
+		(end 19.28 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ff4133d-fd37-4387-9a25-d582da7e91b8")
+	)
+	(fp_line
+		(start 19.28 3.1)
+		(end -1.5 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c99d60b4-2f6d-4ab1-b9ff-74ae5caf8b67")
+	)
+	(fp_line
+		(start -2.5 -4.1)
+		(end 20.28 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc7916ff-95aa-4501-996d-9051d9321810")
+	)
+	(fp_line
+		(start -2.5 4.1)
+		(end -2.5 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b618a704-86dc-4f23-b172-58e4e2843b3a")
+	)
+	(fp_line
+		(start 20.28 -4.1)
+		(end 20.28 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "457b1e7c-9cbb-4b0d-8214-7775434f0752")
+	)
+	(fp_line
+		(start 20.28 4.1)
+		(end -2.5 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73a72b4e-495c-448a-a0ef-6c205faf08a8")
+	)
+	(fp_line
+		(start -1.5 -3.1)
+		(end -1.5 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5939f8bb-1276-4c52-9300-bf1a8a5102aa")
+	)
+	(fp_line
+		(start -1.5 3.1)
+		(end 19.28 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b6591f7-79de-42e8-a889-8c3d1d0ad265")
+	)
+	(fp_line
+		(start 19.28 -3.1)
+		(end -1.5 -3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9cada005-5c9c-4f3e-83d1-5566ab4dfc76")
+	)
+	(fp_line
+		(start 19.28 3.1)
+		(end 19.28 -3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86b34196-eebb-47bd-a338-891255005271")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 8.89 0 0)
+		(layer "F.Fab")
+		(uuid "4978f7a8-5d8f-4a0b-bb04-265de140ea14")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be33b3f3-c4f4-4f96-98a7-75100b69654a")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a2784a4-042b-417e-8cb0-88ef2c6e1d97")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "397f5460-8018-4573-8f67-034b1906f0f6")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b1de9bc4-bded-4270-9686-06fd0b8d0dab")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "72cd1d29-892a-412d-9220-fc7ce02a3152")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88449f1a-ea53-43e1-a876-5f1520ea0471")
+	)
+	(pad "7" thru_hole circle
+		(at 15.24 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9ef5a40-bb15-459a-a622-6d7ec854283a")
+	)
+	(pad "8" thru_hole circle
+		(at 17.78 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "075e68ee-12bf-4df5-afd0-cb5c1a76f1fc")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Sujin Shakya/Downloads/1725711/3D/1725711.stp"
+		(offset
+			(xyz -1.499999977 -3.099999858 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "D:/backup/1725711/3D/1725711.stp"
+		(offset
+			(xyz -1.5 -3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

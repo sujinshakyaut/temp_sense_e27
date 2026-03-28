@@ -1,0 +1,298 @@
+(footprint "SUD20N1066LGE3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.008 180)
+		(layer "F.SilkS")
+		(uuid "ea7fd903-3630-4bc9-8e87-7aed30ddaf63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SUD20N10-66L-GE3"
+		(at 0 5.85 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d3c0062-c0cc-40e9-b0b3-f01162419d7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0027193874/VISH-S-A0027193248-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46103a86-c29a-4030-ab4f-ddf1b520e153")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "N-Channel 100 V (D-S) MOSFET"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "381f7ca0-415b-4741-9248-fb90a8ce9173")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser P/N" "78-SUD20N10-66L-GE3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea85e60b-b47e-4aeb-9cdd-e4ee96123c78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Inventory" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f919e745-794d-4aeb-a1a6-ef700cfde9ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "397ee4a3-3b58-4118-8284-8ead7833c87f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6aa6c0a9-76ca-4561-8eff-eeb57ddbc85a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.27 -3.048)
+		(end -3.27 3.048)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6feeb5e-7c27-4685-9c66-a4dc75e57d41")
+	)
+	(fp_line
+		(start -3.1 5)
+		(end -3.1 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0bfd74f8-b64f-497f-a7d4-132bb5f50800")
+	)
+	(fp_line
+		(start -3 5)
+		(end -3 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa7b27ba-0374-432d-9009-9836a9c8ad56")
+	)
+	(fp_line
+		(start -1.5 3.048)
+		(end 1.5 3.048)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d03bd81c-f26b-4008-822f-4e97ad708469")
+	)
+	(fp_line
+		(start 3.27 -3.048)
+		(end 3.27 3.048)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6dece61-73f4-46c9-af8c-0c14dff67418")
+	)
+	(fp_arc
+		(start -3.1 5)
+		(mid -3.05 4.95)
+		(end -3 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea970101-96ce-4f3c-8164-32fdc5c5bd93")
+	)
+	(fp_arc
+		(start -3 5)
+		(mid -3.05 5.05)
+		(end -3.1 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "583ebc52-d2c2-42ff-8a21-e9b188570bfb")
+	)
+	(fp_line
+		(start -4.27 -7.308)
+		(end 4.27 -7.308)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "ae89b382-069d-470f-b144-9443a04fc359")
+	)
+	(fp_line
+		(start -4.27 6.05)
+		(end -4.27 -7.308)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "5f17ad15-9ad0-425d-9b88-04aa22435d88")
+	)
+	(fp_line
+		(start -3.27 -3.048)
+		(end 3.27 -3.048)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "abbbc6af-5ee1-4afd-b1d2-c54a16b15caf")
+	)
+	(fp_line
+		(start -3.27 3.048)
+		(end -3.27 -3.048)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "49590029-5ac4-4ecf-b12d-08f889278c63")
+	)
+	(fp_line
+		(start 3.27 -3.048)
+		(end 3.27 3.048)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "b7887c34-d9f0-4d47-905b-56d8168e38f3")
+	)
+	(fp_line
+		(start 3.27 3.048)
+		(end -3.27 3.048)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "2df336ad-4dcd-49cc-b268-0c79f4868678")
+	)
+	(fp_line
+		(start 4.27 -7.308)
+		(end 4.27 6.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "a4c17a77-3862-4468-975f-0d0ca3b059d5")
+	)
+	(fp_line
+		(start 4.27 6.05)
+		(end -4.27 6.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "6f785599-ffa1-41c4-9e1b-6ec759939e26")
+	)
+	(pad "1" smd rect
+		(at -2.286 3.217 90)
+		(size 2.286 1.397)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "caafd1e0-51ca-4512-a735-e3f3cc0bda65")
+	)
+	(pad "2" smd rect
+		(at 0 -3.218 90)
+		(size 6.18 5.69)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a294c865-8ccd-40a8-a92a-9bc4db3e33a4")
+	)
+	(pad "3" smd rect
+		(at 2.286 3.217 90)
+		(size 2.286 1.397)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c7999fde-0e5a-4fca-89f4-b206c2418dc0")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Sujin Shakya/Downloads/LIB_SUD20N10-66L-GE3/SUD20N10-66L-GE3/3D/SUD20N10-66L-GE3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "D:/backup/LIB_SUD20N10-66L-GE3/SUD20N10-66L-GE3/3D/SUD20N10-66L-GE3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
