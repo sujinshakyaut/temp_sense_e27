@@ -24,7 +24,7 @@ A compact multi-channel temperature sensing PCB built around the TI MSPM0C1104 m
 
 ## Background
 
-This is a redesigned temperature sensing board intended to be integrated with a voltage tap board on the Orion BMS module, providing cell temperature monitoring across the battery pack. The Orion BMS is highly capable, but routing dozens of analog thermistor wires directly back to the main unit introduces noise vulnerability and wiring harness complexity. This decentralized satellite board digitizes localized analog sensor data and broadcasts it over a noise-immune CAN FD bus.
+This is a redesigned temperature sensing board intended to be integrated with a voltage tap board on the Orion BMS module, providing cell temperature monitoring across the battery pack. The main Orion BMS is limited to 8 internal thermistor inputs, which is insufficient for large-scale battery packs. To achieve full coverage, we integrated the Orion Thermistor Expansion Module, scaling our monitoring capacity to 60+ individual cells. This expansion node digitizes localized analog temperatures and broadcasts them via CANbus to the main unit. This architecture not only meets the capacity requirements of the accumulator but also ensures clean data transmission and minimizes wiring complexity within the high-voltage enclosure.
 
 <img src="https://api.memegen.link/images/fine/60V_transient_spikes/in_the_accumulator.jpg" alt="This is fine" width="450"/>
 
@@ -34,18 +34,14 @@ The CLV4051A 8:1 analog multiplexer allows a single ADC input on the MSPM0C to s
 
 ## Hardware
 
-| Component | Part | Description |
-|-----------|------|-------------|
-| MCU | MSPM0C1104SDGS20R | TI MSPM0C Arm Cortex-M0+ microcontroller |
-| CAN FD | MCP2517FD-H/SL | Microchip CAN FD controller (SPI) |
-| Analog Mux | CLV4051ATDWRG4Q1 | TI 8:1 analog multiplexer |
-| Buck Converter | AP63205 | 2 A synchronous buck, input to 5 V |
-| LDO | TPS7A03 | 3.3 V LDO for MCU and analog rails |
-| Ideal Diode | LM74500QDDFRQ1 | Reverse polarity and ORing protection |
-| MOSFET | SUD20N10-66L-GE3 | N-channel power switch |
-| TVS | Littelfuse SMF24CA | 24 V bidirectional transient protection |
-| Crystal | HC49/4HSMX | MCU clock source |
-| Fuse | Keystone 3568 | Blade mini fuse holder |
+| Component | Part & Specifications |
+| :--- | :--- |
+| <small>**MCU**</small> | <small>TI MSPM0C1104 (Arm Cortex-M0+)</small> |
+| <small>**CAN / Comms**</small> | <small>Microchip MCP2517FD (SPI CAN FD Controller)</small> |
+| <small>**Analog Mux**</small> | <small>TI CLV4051A (8:1 Analog)</small> |
+| <small>**Power Supply**</small> | <small>AP63205 (5V Buck) & TPS7A03 (3.3V LDO)</small> |
+| <small>**Protection**</small> | <small>LM74500 (Ideal Diode) & SMF24CA (24V TVS)</small> |
+| <small>**Misc. Hardware**</small>| <small>SUD20N10 (MOSFET), HC49 (Crystal), Keystone Fuse</small> |
 
 ## NTC Thermistors & Steinhart-Hart
 
@@ -60,11 +56,6 @@ Where:
 
 The MCU reads the 12-bit ADC value, calculates the resistance R via the voltage divider equation, applies the Steinhart-Hart conversion to find Kelvin, and then broadcasts the Celsius equivalent over CAN FD.
 
-## Decentralization and Orion BMS Integration
-Traditional setups require long analog wires from every thermistor to a central unit, creating electromagnetic interference risks. This board acts as a decentralized satellite node. By mounting it directly at the battery module level, the delicate analog traces are kept very short, and the microcontroller handles the analog-to-digital conversion right at the source.
-
-The temperatures are converted to Celsius and packaged into CAN frames. The Orion BMS is configured to listen to these specific CAN IDs. Multiple boards can be daisy-chained along the same bus, allowing the BMS to monitor dozens of modules using just four wires: Power, Ground, CAN High, and CAN Low.
-
 ## Validation & Troubleshooting
 
 Rigorous system-level troubleshooting and component validation are required for reliable operation in high-performance environments.
@@ -75,7 +66,7 @@ Rigorous system-level troubleshooting and component validation are required for 
 
 ## Features
 
-- 8-channel analog temperature input via CLV4051A multiplexer
+- 24-channel analog temperature input via CLV4051A multiplexers
 - CAN FD communication (MCP2517FD over SPI) to Orion BMS
 - Wide input voltage range with reverse polarity and TVS protection
 - On-board buck + LDO three-stage power supply with 24V voltage regulation
