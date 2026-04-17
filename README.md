@@ -6,7 +6,7 @@
 [![BMS](https://img.shields.io/badge/BMS-Orion%20BMS-brightgreen.svg)](https://www.orionbms.com/)
 [![Hardware](https://img.shields.io/badge/type-hardware-orange.svg)]()
 
-A compact multi-channel temperature sensing PCB built around the TI MSPM0C1104 microcontroller with CAN FD communication. Designed as a tap board that mounts directly onto the Orion BMS module, providing up to 8 analog temperature inputs multiplexed through a single ADC channel with robust power protection for automotive and industrial environments.
+A compact multi-channel temperature sensing PCB built around the TI MSPM0C1104 microcontroller with CAN FD communication. Designed to be later integrated on a voltage tap board that mounts directly onto the Orion BMS module, providing up to 24 analog temperature inputs per tapboard or breakout board multiplexed through a 3 ADC channel with robust power protection for automotive and industrial environments.
 
 ## Table of Contents
 
