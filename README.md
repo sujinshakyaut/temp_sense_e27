@@ -62,7 +62,7 @@ Where:
 
 The MCU reads the 12-bit ADC value, calculates the resistance R via the voltage divider equation, applies the Steinhart-Hart conversion to find Kelvin, and then broadcasts the Celsius equivalent over CAN FD.
 
-##Decentralization and Orion BMS Integration
+## Decentralization and Orion BMS Integration
 Traditional setups require long analog wires from every thermistor to a central unit, creating electromagnetic interference risks. This board acts as a decentralized satellite node. By mounting it directly at the battery module level, the delicate analog traces are kept very short, and the microcontroller handles the analog-to-digital conversion right at the source.
 
 The temperatures are converted to Celsius and packaged into CAN frames. The Orion BMS is configured to listen to these specific CAN IDs. Multiple boards can be daisy-chained along the same bus, allowing the BMS to monitor dozens of modules using just four wires: Power, Ground, CAN High, and CAN Low.
