@@ -1,3 +1,6 @@
+# KiCad symbol libraries
+*.kicad_sym
+
 # KiCad backup and auto-save files
 *.bak
 *.kicad_sch-bak
