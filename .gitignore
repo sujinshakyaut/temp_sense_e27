@@ -46,6 +46,7 @@ manufacturing/
 *.png
 *.jpg
 *.jpeg
+!temp_sense_redesign.png
 
 # Editor / OS cruft
 .history/

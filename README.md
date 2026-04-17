@@ -2,9 +2,11 @@
 
 [![KiCad](https://img.shields.io/badge/KiCad-7.x-blue.svg)](https://www.kicad.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+[![MCU](https://img.shields.io/badge/MCU-Texas%20Instruments-red.svg)](https://www.ti.com/)
+[![BMS](https://img.shields.io/badge/BMS-Orion%20BMS-brightgreen.svg)](https://www.orionbms.com/)
 [![Hardware](https://img.shields.io/badge/type-hardware-orange.svg)]()
 
-A compact multi-channel temperature sensing PCB built around the TI MSPM0C1104 microcontroller with CAN FD communication. Designed for automotive and industrial environments with robust power protection and up to 8 analog temperature inputs multiplexed through a single ADC channel.
+A compact multi-channel temperature sensing PCB built around the TI MSPM0C1104 microcontroller with CAN FD communication. Designed as a tap board that mounts directly onto the Orion BMS module, providing up to 8 analog temperature inputs multiplexed through a single ADC channel with robust power protection for automotive and industrial environments.
 
 ## Table of Contents
 
@@ -16,7 +18,7 @@ A compact multi-channel temperature sensing PCB built around the TI MSPM0C1104 m
 
 ## Background
 
-This is a redesigned temperature sensing board intended for use in systems requiring reliable multi-point temperature monitoring over a CAN bus network. The board consolidates power regulation, input protection, analog multiplexing, and CAN FD communication onto a single compact PCB.
+This is a redesigned temperature sensing board intended to mount as a tap board on the Orion BMS module, providing cell temperature monitoring across the battery pack. The board consolidates power regulation, input protection, analog multiplexing, and CAN FD communication onto a single compact PCB.
 
 The CLV4051A 8:1 analog multiplexer allows a single ADC input on the MSPM0C to scan up to 8 temperature sensor channels sequentially, reducing pin count while maintaining measurement flexibility. The MCP2517FD provides CAN FD connectivity over SPI, enabling integration into modern automotive or industrial networks.
 
