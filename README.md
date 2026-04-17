@@ -18,11 +18,11 @@ A compact multi-channel temperature sensing PCB built around the TI MSPM0C1104 m
 
 ## Background
 
-This is a redesigned temperature sensing board intended to mount as a tap board on the Orion BMS module, providing cell temperature monitoring across the battery pack. The board consolidates power regulation, input protection, analog multiplexing, and CAN FD communication onto a single compact PCB.
+This is a redesigned temperature sensing board intended to be integrated with a voltage tap board on the Orion BMS module, providing cell temperature monitoring across the battery pack. The board consolidates power regulation, input protection, analog multiplexing, and CAN FD communication onto a single compact PCB. A three stage power supply has been implemented due to potential 60V voltage spikes from the battery module.
 
 The CLV4051A 8:1 analog multiplexer allows a single ADC input on the MSPM0C to scan up to 8 temperature sensor channels sequentially, reducing pin count while maintaining measurement flexibility. The MCP2517FD provides CAN FD connectivity over SPI, enabling integration into modern automotive or industrial networks.
 
-Power input is protected by an LM74500 ideal diode controller and an SMF24CA TVS diode, with the AP63205 buck converter stepping down to 5 V and a TPS7A03 LDO providing a clean 3.3 V rail for the microcontroller and analog circuitry.
+Power input is protected by an LM74500 ideal diode controller and an SMF24CA TVS diode, with the AP63205 buck converter stepping down to 5 V and a TPS7A03 LDO providing a clean 3.3 V rail for the microcontroller and analog circuitry. A fuse has been used for extra protection.
 
 ![Board](temp_sense.png)
 
@@ -46,7 +46,7 @@ Power input is protected by an LM74500 ideal diode controller and an SMF24CA TVS
 - 8-channel analog temperature input via CLV4051A multiplexer
 - CAN FD communication (MCP2517FD over SPI)
 - Wide input voltage range with reverse polarity and TVS protection
-- On-board buck + LDO two-stage power supply with 24V voltage regulation
+- On-board buck + LDO three-stage power supply with 24V voltage regulation
 - Screw terminal connectors.
 - M3 mounting holes for panel or DIN mount
 
