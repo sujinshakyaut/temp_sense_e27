@@ -11,7 +11,6 @@ A compact multi-channel temperature sensing PCB built around the TI MSPM0C1104 m
 - [Background](#background)
 - [Hardware](#hardware)
 - [Features](#features)
-- [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -45,25 +44,9 @@ Power input is protected by an LM74500 ideal diode controller and an SMF24CA TVS
 - 8-channel analog temperature input via CLV4051A multiplexer
 - CAN FD communication (MCP2517FD over SPI)
 - Wide input voltage range with reverse polarity and TVS protection
-- On-board buck + LDO two-stage power supply
-- Screw terminal and pin header I/O connectors
+- On-board buck + LDO two-stage power supply with 24V voltage regulation
+- Screw terminal connectors.
 - M3 mounting holes for panel or DIN mount
-
-## Getting Started
-
-The design files are in KiCad format. Open `temp_sense_redesign.kicad_pro` in KiCad 7 or later.
-
-```
-File → Open Project → temp_sense_redesign.kicad_pro
-```
-
-Custom footprints are in the `Library.pretty/` directory and are referenced via the project-local `fp-lib-table`. No additional library setup is required.
-
-To generate Gerber files:
-
-```
-PCB Editor → File → Fabrication Outputs → Gerbers
-```
 
 ## Contributing
 
