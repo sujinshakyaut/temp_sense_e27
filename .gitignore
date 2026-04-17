@@ -1,44 +1,50 @@
-# Created by https://www.toptal.com/developers/gitignore/api/kicad
-# Edit at https://www.toptal.com/developers/gitignore?templates=kicad
-
-### KiCad ###
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
-
-# Temporary files
-*.000
+# KiCad backup and auto-save files
 *.bak
-*.bck
-*.kicad_pcb-bak
 *.kicad_sch-bak
-*-backups
-*.kicad_prl
-*.sch-bak
-*~
+*.kicad_pcb-bak
+*-backups/
 _autosave-*
-*.tmp
-*-save.pro
-*-save.kicad_pcb
+*.lck
+~*
+
+# KiCad cache files
 fp-info-cache
+*.sch-bak
 
-# Netlist files (exported from Eeschema)
-*.net
+# KiCad step cache
+.step
 
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
+# 3D model caches / large STEP files (keep .kicad_mod, .kicad_sym, etc.)
+*.stp
+*.STEP
+*.step
 
-# Exported BOM files
-*.xml
-*.csv
+# Gerber and fabrication output
+gerber/
+gerber.rar
+*.gbr
+*.gtl
+*.gbl
+*.gto
+*.gbo
+*.gts
+*.gbs
+*.gko
+*.gm1
+*.drl
+*.xln
+*.zip
+*.rar
+fab/
+output/
+manufacturing/
 
-### KiCad Patch ###
-rescue-backup/
+# Images / screenshots (not source files)
+*.png
+*.jpg
+*.jpeg
 
-*.tsv
-bom/
-
-# Gerber export output
-out/
-
-# End of https://www.toptal.com/developers/gitignore/api/kicad
+# Editor / OS cruft
+.history/
+.DS_Store
+Thumbs.db
