@@ -8,6 +8,10 @@
 
 A compact multi-channel temperature sensing PCB built around the TI MSPM0C1104 microcontroller with CAN FD communication. Designed to be later integrated on a voltage tap board that mounts directly onto the Orion BMS module, providing up to 24 analog temperature inputs per tapboard or breakout board multiplexed through a 3 ADC channel with robust power protection for automotive and industrial environments.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sujinshakyaut/temp_sense_e27/main/temp_sense.png" alt="Temperature Sensor Board" width="450"/>
+</p>
+
 ## Table of Contents
 
 - [Background](#background)
@@ -57,6 +61,11 @@ Where:
 * A, B, C = Steinhart-Hart coefficients provided by the thermistor manufacturer
 
 The MCU reads the 12-bit ADC value, calculates the resistance R via the voltage divider equation, applies the Steinhart-Hart conversion to find Kelvin, and then broadcasts the Celsius equivalent over CAN FD.
+
+##Decentralization and Orion BMS Integration
+Traditional setups require long analog wires from every thermistor to a central unit, creating electromagnetic interference risks. This board acts as a decentralized satellite node. By mounting it directly at the battery module level, the delicate analog traces are kept very short, and the microcontroller handles the analog-to-digital conversion right at the source.
+
+The temperatures are converted to Celsius and packaged into CAN frames. The Orion BMS is configured to listen to these specific CAN IDs. Multiple boards can be daisy-chained along the same bus, allowing the BMS to monitor dozens of modules using just four wires: Power, Ground, CAN High, and CAN Low.
 
 ## Validation & Troubleshooting
 
