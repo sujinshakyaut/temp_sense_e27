@@ -24,7 +24,7 @@ The CLV4051A 8:1 analog multiplexer allows a single ADC input on the MSPM0C to s
 
 Power input is protected by an LM74500 ideal diode controller and an SMF24CA TVS diode, with the AP63205 buck converter stepping down to 5 V and a TPS7A03 LDO providing a clean 3.3 V rail for the microcontroller and analog circuitry.
 
-![Board](temp_sense_redesign.png)
+![Board](temp_sense.png)
 
 ## Hardware
 
