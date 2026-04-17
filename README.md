@@ -8,9 +8,9 @@
 
 A compact multi-channel temperature sensing PCB built around the TI MSPM0C1104 microcontroller with CAN FD communication. Designed to be later integrated on a voltage tap board that mounts directly onto the Orion BMS module, providing up to 24 analog temperature inputs per tapboard or breakout board multiplexed through a 3 ADC channel with robust power protection for automotive and industrial environments.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sujinshakyaut/temp_sense_e27/main/temp_sense.png" alt="Temperature Sensor Board" width="450"/>
-</p>
+
+<img src="https://raw.githubusercontent.com/sujinshakyaut/temp_sense_e27/main/temp_sense.png" alt="Temperature Sensor Board" width="450"/>
+
 
 ## Table of Contents
 
