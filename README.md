@@ -24,7 +24,9 @@ A compact multi-channel temperature sensing PCB built around the TI MSPM0C1104 m
 
 ## Background
 
-This is a redesigned temperature sensing board intended to be integrated with a voltage tap board on the Orion BMS module, providing cell temperature monitoring across the battery pack. The main Orion BMS is limited to 8 internal thermistor inputs, which is insufficient for large-scale battery packs. To achieve full coverage, we integrated the Orion Thermistor Expansion Module, scaling our monitoring capacity to 60+ individual cells. This expansion node digitizes localized analog temperatures and broadcasts them via CANbus to the main unit. This architecture not only meets the capacity requirements of the accumulator but also ensures clean data transmission and minimizes wiring complexity within the high-voltage enclosure.
+This is a redesigned temperature sensing board intended to be integrated with a voltage tap board on the Orion BMS module, providing cell temperature monitoring across the battery pack. 
+
+The main Orion BMS is limited to 8 internal thermistor inputs, which is insufficient for large-scale battery packs. To achieve full coverage, we integrated the Orion Thermistor Expansion Module, scaling our monitoring capacity to 60+ individual cells. This expansion node digitizes localized analog temperatures and broadcasts them via CANbus to the main unit. This architecture not only meets the capacity requirements of the accumulator but also ensures clean data transmission and minimizes wiring complexity within the high-voltage enclosure.
 
 <img src="https://api.memegen.link/images/fine/60V_transient_spikes/in_the_accumulator.jpg" alt="This is fine" width="200"/>
 
