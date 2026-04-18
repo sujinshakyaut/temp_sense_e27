@@ -15,7 +15,6 @@ A compact multi-channel temperature sensing PCB built around the TI MSPM0C1104 m
 ## Table of Contents
 
 - [Background](#background)
-- [Hardware](#hardware)
 - [NTC Thermistors & Steinhart-Hart](#ntc-thermistors--steinhart-hart)
 - [Validation & Troubleshooting](#validation--troubleshooting)
 - [Features](#features)
