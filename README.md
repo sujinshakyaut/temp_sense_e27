@@ -32,17 +32,6 @@ The board consolidates power regulation, input protection, analog multiplexing, 
 
 The CLV4051A 8:1 analog multiplexer allows a single ADC input on the MSPM0C to scan up to 8 temperature sensor channels sequentially, reducing pin count. The MCP2517FD provides CAN FD connectivity over SPI.
 
-## Hardware
-
-| Component | Part & Specifications |
-| :--- | :--- |
-| <small>**MCU**</small> | <small>TI MSPM0C1104 (Arm Cortex-M0+)</small> |
-| <small>**CAN / Comms**</small> | <small>Microchip MCP2517FD (SPI CAN FD Controller)</small> |
-| <small>**Analog Mux**</small> | <small>TI CLV4051A (8:1 Analog)</small> |
-| <small>**Power Supply**</small> | <small>AP63205 (5V Buck) & TPS7A03 (3.3V LDO)</small> |
-| <small>**Protection**</small> | <small>LM74500 (Ideal Diode) & SMF24CA (24V TVS)</small> |
-| <small>**Misc. Hardware**</small>| <small>SUD20N10 (MOSFET), HC49 (Crystal), Keystone Fuse</small> |
-
 ## NTC Thermistors & Steinhart-Hart
 
 This board interfaces with Negative Temperature Coefficient (NTC) thermistors (typically 10 kΩ at 25°C). The thermistors are placed in a voltage divider circuit with a known 10 kΩ bias resistor. Because the resistance curve of an NTC is highly non-linear, the firmware utilizes the Steinhart-Hart equation for accurate conversion from resistance to temperature across the accumulator's operating range:
@@ -55,14 +44,6 @@ Where:
 * A, B, C = Steinhart-Hart coefficients provided by the thermistor manufacturer
 
 The MCU reads the 12-bit ADC value, calculates the resistance R via the voltage divider equation, applies the Steinhart-Hart conversion to find Kelvin, and then broadcasts the Celsius equivalent over CAN FD.
-
-## Validation & Troubleshooting
-
-Rigorous system-level troubleshooting and component validation are required for reliable operation in high-performance environments.
-
-* **Power Rail Validation:** Prior to MCU initialization, verify the buck converter output at exactly 5.0 V (+/- 1%) and the LDO output at 3.3 V. 
-* **Protection Circuitry:** The SMF24CA and LM74500 are selected to clamp and isolate reverse transients. Verify the blade fuse continuity and the SUD20N10 MOSFET gate drive state if the board remains unpowered while connected to an active accumulator rail.
-* **CAN & SPI Diagnostics:** If the Orion BMS fails to acknowledge the node, use an oscilloscope to validate the MCP2517FD SPI clock logic and verify that the 120 Ω CAN termination resistor aligns with the overall bus topology.
 
 ## Features
 
