@@ -1,4 +1,4 @@
-# Temperature Sensor Board
+# Thermal Monitoring Module (E27)
 
 [![KiCad](https://img.shields.io/badge/KiCad-7.x-blue.svg)](https://www.kicad.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
